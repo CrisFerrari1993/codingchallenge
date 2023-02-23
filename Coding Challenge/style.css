@@ -1,0 +1,68 @@
+body{
+  background-image: url(background1.jpg);
+  background-size: cover; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contain{
+  padding-top: 30px;
+  padding-bottom: 70px;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-block: 5%;
+
+}
+
+#logo{
+  color: lime;
+}
+
+.img{
+  width: 200px;
+}
+
+div.navbar{
+  background-color: lime;
+  padding: 1%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+main{
+  margin-top: 20px;
+  margin-left: 80px;
+  display: flex;
+  text-align: justify;
+  color: white;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.nomemono{
+  display: inline-block;
+  font-size: 25px;
+}
+.stato{
+  background-color: yellow;
+  width: 300px;
+  border-block: solid yellow;
+  height: 20px;
+}
+.stato2{
+  background-color: green;
+  width: 500px;
+  border-block: solid green;
+  height: 20px;
+}
+.stato3{
+  background-color: red;
+  width: 120px;
+  border-block: solid red;
+  height: 20px;
+}
+
+
+
+
+
+
